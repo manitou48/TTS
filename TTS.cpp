@@ -358,7 +358,7 @@ static int pin;
 static void soundOff(void)
 {
 #ifdef DACPIN
-	analogWrite(DACPIN,0);
+	//analogWrite(DACPIN,0);
 #else
     if (pin == 10)
 	TCCR1A &= ~(_BV(COM1B1));	// Disable PWM
@@ -393,7 +393,7 @@ static void soundOff(void)
 static void soundOn(void)
 {
 #ifdef DACPIN
-	analogWrite(DACPIN,0);
+	//analogWrite(DACPIN,0);
 #else
     pinMode(pin, OUTPUT);
     if (pin == 10) {
