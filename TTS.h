@@ -26,7 +26,7 @@
 #elif defined(__MKL26Z64__)
 #define DACPIN A12  // LC
 #elif defined(__SAMD21G18A__)
-#define DACPIN A0  // cpx
+#define DACPIN A0  // cpx ZERO
 #elif defined(__SAM3X8E__)
 #define DACPIN DAC0   // DUE DAC0 or DAC1
 #endif
