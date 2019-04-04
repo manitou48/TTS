@@ -2,6 +2,7 @@
 
 ## Text-to-Speech for Arduino
 
+- from Stephen Crane [github](https://github.com/jscrane/TTS)
 - requires an amplifier on the PWM output pin, e.g., [this one](http://www.tinyurl.com/magicmouth/)
 - original implementation by Clive Webster in [Webbotlib](http://webbot.org.uk/iPoint/30.page)
 - ported to Arduino by [Gabriel Petrut](http://www.tehnorama.ro/minieric-modulul-de-control-si-sinteza-vocala/)
